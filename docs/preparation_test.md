@@ -2,6 +2,7 @@
 
 
 ## Requirements
+- VSCODE Text Editor
 - .vscode settings.json and snippets folder
 - shellcheck
 - phpcs
