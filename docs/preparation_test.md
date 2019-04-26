@@ -16,6 +16,8 @@
 `composer require --dev "squizlabs/php_codesniffer=*"`
 
 ### Adding Git Hooks precommit for Linting PHP CODE
-touch pre-commit
-cmod +x pre-commit
-mv pre-commit .git/hooks/
+
+```
+cp pre-commit .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
+```
